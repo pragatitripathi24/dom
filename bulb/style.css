@@ -1,0 +1,22 @@
+#bulb{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid black;
+   
+}
+#btn{
+    width: 100px;
+    height: 80px;
+    border-radius: 10%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    border: 4px solid black;
+}

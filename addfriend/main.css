@@ -1,0 +1,42 @@
+body , html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(72, 116, 205);
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+}
+#card{
+    height: 500px;
+    width: 350px;
+    background-color:rgb(205, 194, 194) !important;
+    border-radius: 9px;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#card img {
+    height: 60%;
+    width: 100%;
+   
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h5 i{
+  color: rgb(44, 48, 48);
+}
+.btn  {
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+    background-color: cadetblue;
+    border-radius: 50px;
+    border: solid black;
+    color: #fff;
+    font-size: large;
+    font-weight: 800;
+      
+}
